@@ -1,0 +1,442 @@
+CRITICAL - 2022-05-25 07:35:33 --> Class "App\Filters\AuthGuard" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-25 07:37:12 --> Class "App\Filters\AuthGuard" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+ERROR - 2022-05-25 07:39:23 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-05-25 07:39:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /home/dekolorr/licenta.dekolor.ro/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dekolorr/licenta.dekolor.ro/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /home/dekolorr/licenta.dekolor.ro/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /home/dekolorr/licenta.dekolor.ro/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SignupController.php(25): CodeIgniter\Controller->validate()
+#7 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\SignupController->store()
+#8 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-25 07:40:11 --> Undefined property: App\Controllers\SigninController::$reuqest
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 07:55:08 --> Invalid file: profile.php
+#0 /home/dekolorr/licenta.dekolor.ro/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/dekolorr/licenta.dekolor.ro/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/dekolorr/licenta.dekolor.ro/app/Controllers/ProfileController.php(15): view()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-25 08:10:33 --> Undefined variable $username
+#0 /home/dekolorr/licenta.dekolor.ro/app/Views/nav.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/View/View.php(210): include('/home/dekolorr/...')
+#2 /home/dekolorr/licenta.dekolor.ro/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/dekolorr/licenta.dekolor.ro/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): view()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 08:13:38 --> Invalid file: home.php
+#0 /home/dekolorr/licenta.dekolor.ro/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/dekolorr/licenta.dekolor.ro/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/dekolorr/licenta.dekolor.ro/app/Controllers/LicentaHome.php(9): view()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\LicentaHome->index()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-25 09:20:20 --> syntax error, unexpected variable "$config", expecting "]"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/dekolorr/licenta.dekolor.ro/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(797): class_exists()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-25 09:20:59 --> syntax error, unexpected token ";", expecting "]"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/dekolorr/licenta.dekolor.ro/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(797): class_exists()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-25 09:21:28 --> require_once(/home/dekolorr/licenta.dekolor.ro/app/Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): require_once()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 09:21:37 --> Class "App\Controllers\EWeLink\Api\Config" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 09:22:11 --> require_once(/home/dekolorr/licenta.dekolor.ro/app/Controllers../../vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): require_once()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 09:22:21 --> require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): require_once()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 09:27:22 --> Class "EWeLink\Api\Config" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 09:27:54 --> require_once(../../vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(12): require_once()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 09:30:44 --> Class "EWeLink\Api\Config" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 09:36:48 --> Class "App\Controllers\EWeLink\Api\Config" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 09:37:06 --> Class "EWeLink\Api\Config" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 09:46:20 --> Class "EWeLink\Api\Config" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 09:47:59 --> require_once(/home/dekolorr/licenta.dekolor.ro/vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): require_once()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\DeviceController->index()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 09:51:16 --> Declaration of Sarahman\SimpleCache\FileSystemCache::get($key, $default = null) must be compatible with Psr\SimpleCache\CacheInterface::get(string $key, mixed $default = null): mixed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-25 10:14:33 --> Declaration of Sarahman\SimpleCache\FileSystemCache::get($key, $default = null) must be compatible with Psr\SimpleCache\CacheInterface::get(string $key, mixed $default = null): mixed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-25 15:28:22 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:28:28 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:29:57 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:29:59 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:30:01 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 10:30:22 --> Declaration of Sarahman\SimpleCache\FileSystemCache::get($key, $default = null) must be compatible with Psr\SimpleCache\CacheInterface::get(string $key, mixed $default = null): mixed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-25 15:30:42 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:31:05 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:31:12 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:31:38 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:31:39 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:33:50 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 15:33:53 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#2 {main}
+CRITICAL - 2022-05-25 10:34:06 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:34:35 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:34:40 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:35:45 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:37:25 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:37:31 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:37:53 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 15:41:03 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(221): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#4 {main}
+CRITICAL - 2022-05-25 15:41:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(221): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#4 {main}
+CRITICAL - 2022-05-25 15:41:44 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(221): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#4 {main}
+CRITICAL - 2022-05-25 15:43:03 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(221): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/dekolorr/licenta.dekolor.ro/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/dekolorr/licenta.dekolor.ro/public/index.php(28): require('/home/dekolorr/...')
+#4 {main}
+CRITICAL - 2022-05-25 10:43:18 --> require_once(/home/dekolorr/licenta.dekolor.ro/vendor/autoload.php): Failed to open stream: No such file or directory
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/app/Controllers/DeviceController.php(9): require_once()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\DeviceController->index()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 10:44:24 --> Declaration of Sarahman\SimpleCache\FileSystemCache::get($key, $default = null) must be compatible with Psr\SimpleCache\CacheInterface::get(string $key, mixed $default = null): mixed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-25 10:45:53 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-25 10:49:08 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 3306?
+received invalid response to SSL negotiation: a
+CRITICAL - 2022-05-25 10:49:08 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 3306?
+received invalid response to SSL negotiation: a
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/dekolorr/licenta.dekolor.ro/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(21): CodeIgniter\BaseModel->first()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#7 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-25 10:50:18 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, no such table: users in /home/dekolorr/licenta.dekolor.ro/system/Database/SQLite3/Connection.php:116
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', '/home/dekolorr/...', 116)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/SQLite3/Connection.php(116): SQLite3->query('SELECT *\nFROM `...')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *\nFROM `...')
+#3 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#4 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /home/dekolorr/licenta.dekolor.ro/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/dekolorr/licenta.dekolor.ro/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(21): CodeIgniter\BaseModel->first()
+#8 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#9 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#10 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-25 10:50:18 --> Call to a member function getFirstRow() on bool
+#0 /home/dekolorr/licenta.dekolor.ro/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(21): CodeIgniter\BaseModel->first()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-25 10:50:29 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, no such table: users in /home/dekolorr/licenta.dekolor.ro/system/Database/SQLite3/Connection.php:116
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', '/home/dekolorr/...', 116)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/SQLite3/Connection.php(116): SQLite3->query('SELECT *\nFROM `...')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseConnection.php(670): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *\nFROM `...')
+#3 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#4 /home/dekolorr/licenta.dekolor.ro/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /home/dekolorr/licenta.dekolor.ro/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#6 /home/dekolorr/licenta.dekolor.ro/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#7 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(21): CodeIgniter\BaseModel->first()
+#8 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#9 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#10 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-25 10:50:29 --> Call to a member function getFirstRow() on bool
+#0 /home/dekolorr/licenta.dekolor.ro/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(21): CodeIgniter\BaseModel->first()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 10:50:38 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:54:07 --> Class "CodeIgniter\Database\mysql\Connection" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:54:11 --> Class "CodeIgniter\Database\mysql\Connection" not found
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:58:07 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 12:25:50 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 /home/dekolorr/licenta.dekolor.ro/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /home/dekolorr/licenta.dekolor.ro/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /home/dekolorr/licenta.dekolor.ro/app/Controllers/SigninController.php(17): CodeIgniter\Model->__construct()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(834): App\Controllers\SigninController->loginAuth()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

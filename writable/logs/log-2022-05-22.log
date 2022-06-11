@@ -1,0 +1,188 @@
+CRITICAL - 2022-05-22 12:25:10 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/LicentaHome.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\LicentaHome->index()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:26:37 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/LicentaHome.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\LicentaHome->index()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:26:38 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/LicentaHome.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\LicentaHome->index()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:26:39 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/LicentaHome.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\LicentaHome->index()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:33:01 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/LicentaHome.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\LicentaHome->index()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:34:38 --> syntax error, unexpected variable "$session", expecting "function" or "const"
+#0 /home/dekolorr/licenta.dekolor.ro/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/dekolorr/licenta.dekolor.ro/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(797): class_exists()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 12:36:50 --> Undefined variable $config
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/LicentaHome.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\LicentaHome->index()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:41:06 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:12 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:17 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:17 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:17 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:17 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:18 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:18 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:18 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:30 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:30 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:31 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:31 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:31 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:31 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:32 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:44:32 --> Undefined variable $session
+#0 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:45:55 --> Invalid file: login.php
+#0 /home/dekolorr/licenta.dekolor.ro/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/dekolorr/licenta.dekolor.ro/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(11): view()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 12:59:39 --> Invalid file: forgotpassword.php
+#0 /home/dekolorr/licenta.dekolor.ro/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/dekolorr/licenta.dekolor.ro/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/dekolorr/licenta.dekolor.ro/app/Controllers/Auth.php(35): view()
+#3 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(832): App\Controllers\Auth->forgotpassword()
+#4 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/dekolorr/licenta.dekolor.ro/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/dekolorr/licenta.dekolor.ro/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
