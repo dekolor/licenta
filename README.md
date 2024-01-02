@@ -2,7 +2,7 @@
 
 SmartHome este o aplicatie ce are rolul de a oferi un singur dashboard pentru device-uri bazate pe servicii diferite. De asemenea, a fost proiectul meu de licenta.
 
-# Demo
+# Demo - dezactivat temporar
 Demo: https://licenta.dekolor.ro/
 
 User: test@dekolor.ro
